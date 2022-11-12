@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1665953680 source:d:\kuliah\semester 3\struktur data\tp-mod4\main.cpp
+	"SLL.h"
+
+1665952507 d:\kuliah\semester 3\struktur data\tp-mod4\sll.h
+	<iostream>
+
+1665952602 source:d:\kuliah\semester 3\struktur data\tp-mod4\sll.cpp
+	"SLL.h"
+

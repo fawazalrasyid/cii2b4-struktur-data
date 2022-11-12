@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1665395144 source:d:\modul3\modul3_1301213016\lemari.cpp
+	"lemari.h"
+	<iostream>
+
+1665394812 d:\modul3\modul3_1301213016\lemari.h
+
+1665394989 source:d:\modul3\modul3_1301213016\main.cpp
+	"lemari.h"
+	<iostream>
+

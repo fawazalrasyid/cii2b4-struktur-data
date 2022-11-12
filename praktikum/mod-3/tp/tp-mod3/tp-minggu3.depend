@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1665335098 source:d:\kuliah\semester 3\struktur data\tp-minggu3\main.cpp
+	"member.h"
+	<iostream>
+
+1665335278 d:\kuliah\semester 3\struktur data\tp-minggu3\member.h
+	<iostream>
+
+1665335401 source:d:\kuliah\semester 3\struktur data\tp-minggu3\member.cpp
+	"member.h"
+	<iostream>
+

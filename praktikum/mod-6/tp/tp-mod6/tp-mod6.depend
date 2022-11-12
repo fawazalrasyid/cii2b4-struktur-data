@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1667151569 source:d:\kuliah\semester 3\struktur data\tp-mod6\main.cpp
+	"DLL.h"
+	<iostream>
+
+1667150176 d:\kuliah\semester 3\struktur data\tp-mod6\dll.h
+	<iostream>
+
+1667150292 source:d:\kuliah\semester 3\struktur data\tp-mod6\dll.cpp
+	"DLL.h"
+

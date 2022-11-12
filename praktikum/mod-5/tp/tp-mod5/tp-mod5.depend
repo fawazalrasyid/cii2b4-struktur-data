@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1666549982 source:d:\kuliah\semester 3\struktur data\tp-mod5\main.cpp
+	"header.h"
+	<iostream>
+
+1666548552 d:\kuliah\semester 3\struktur data\tp-mod5\header.h
+	<iostream>
+
+1666549999 source:d:\kuliah\semester 3\struktur data\tp-mod5\header.cpp
+	"header.h"
+
