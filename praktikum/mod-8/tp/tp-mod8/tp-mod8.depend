@@ -1,11 +1,11 @@
 # depslib dependency file v1.0
-1668262437 source:c:\cii2b4-struktur-data\praktikum\mod-8\tp\tp-mod8\csll.cpp
+1668267463 source:c:\cii2b4-struktur-data\praktikum\mod-8\tp\tp-mod8\csll.cpp
 	"CSLL.h"
 
-1668260868 c:\cii2b4-struktur-data\praktikum\mod-8\tp\tp-mod8\csll.h
+1668266719 c:\cii2b4-struktur-data\praktikum\mod-8\tp\tp-mod8\csll.h
 	<iostream>
 
-1668262333 source:c:\cii2b4-struktur-data\praktikum\mod-8\tp\tp-mod8\main.cpp
+1668267628 source:c:\cii2b4-struktur-data\praktikum\mod-8\tp\tp-mod8\main.cpp
 	"CSLL.h"
 	<iostream>
 

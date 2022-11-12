@@ -32,8 +32,8 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="CSLLL.cpp" />
-		<Unit filename="CSSL.h" />
+		<Unit filename="CSLL.cpp" />
+		<Unit filename="CSLL.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />

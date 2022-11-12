@@ -8,10 +8,11 @@ using namespace std;
 #define info(pLagu) (pLagu)->info
 #define next(pLagu) (pLagu)->next
 #define first(L) ((L).first)
-#define last(L) ((L).last)
 
 struct infotype {
-    string artis, judul, genre;
+    string artis;
+    string judul;
+    string genre;
     int playtime;
 };
 
@@ -27,9 +28,9 @@ struct listLagu {
 };
 
 void createList_1301213016(listLagu &L);
-void createElemen_1301213016(infotype laguBaru, adr pLagu);
-void insertFirst_1301213016(listLagu &L, adr pLagu);
-void deleteLast_1301213016(listLagu &L, adr pLagu);
+void createElemen_1301213016(infotype laguBaru, adr &pLagu);
+void insertLast_1301213016(listLagu &L, adr pLagu);
+void deleteFirst_1301213016(listLagu &L, adr &pLagu);
 void showSemuaLagu_1301213016(listLagu L);
 
 #endif // CSLL_H_INCLUDED
