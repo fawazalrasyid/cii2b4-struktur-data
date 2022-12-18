@@ -1,1 +1,0 @@
-void deletePenjualan (mll : &list_sales) { // Kamus Lokal int i; // Algoritma if (mll.first != NULL) { // Jika list tidak kosong i = 1; while (i <= mll.n) { // Hapus semua elemen list delete mll.first; mll.first = mll.first->next; i++; } mll.n = 0; }
