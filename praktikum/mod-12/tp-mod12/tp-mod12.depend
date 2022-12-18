@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1670779083 source:c:\tugas-pendahuluan\tp-mod12\flight.cpp
+	"flight.h"
+
+1670773771 c:\tugas-pendahuluan\tp-mod12\flight.h
+	<iostream>
+
+1670772940 source:c:\tugas-pendahuluan\tp-mod12\main.cpp
+	<iostream>
+	"flight.h"
+

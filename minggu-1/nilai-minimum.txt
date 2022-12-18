@@ -14,3 +14,5 @@ alghoritma
     end for
     return idx
 endfunction
+
+function minimum 
