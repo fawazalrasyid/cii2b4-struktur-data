@@ -1,16 +1,36 @@
-function minimum(T: tabInt; N: integer) -> integer
-kamus
-    min : integer
-    k : integer
-    idx : integer
-alghoritma
-    min = T[0]
-    idx = 0
-    for k = 1 to N-1 do
-        if T[k] < min then
-            min = T[k]
-            idx = k
-        end if
-    end for
-    return idx
-endfunction
+
+void createStack(stack &S) {
+    S.top = NULL;
+}
+
+bool isEmpty(stack S) {
+    return (S.top == NULL);
+}
+
+bool isFull(stack S) {
+    return false;
+}
+
+void push(stack &S, int x) {
+    node *p = new node;
+    p->data = x;
+    p->next = S.top;
+    S.top = p;
+}
+
+for (int i = 0; i < n; i++) {
+    int x;
+    cin >> x;
+    push(S, x);
+}
+
+void printInfo(stack S) {
+    for (i = 0; i < n; i++) {
+        cout << S.top->data << " ";
+        S.top = S.top->next;
+    }
+}
+
+struct stack {
+    infotype 
+}
