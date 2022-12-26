@@ -1,1 +1,0 @@
-procedure incertionsort(input/output : tab : tabelSiswa)
