@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1671378073 source:c:\cii2b4-struktur-data\praktikum\mod-13\tp-mod13\main.cpp
+	<iostream>
+	"graph.h"
+
+1671378075 c:\cii2b4-struktur-data\praktikum\mod-13\tp-mod13\graph.h
+	<iostream>
+
+1671378103 source:c:\cii2b4-struktur-data\praktikum\mod-13\tp-mod13\graph.cpp
+	"graph.h"
+
