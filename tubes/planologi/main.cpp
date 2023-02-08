@@ -207,6 +207,15 @@ int main()
 
             break;
         }
+        case 13: {
+            cout << "\n================================Jumlah Jalan==================================\n" << endl;
+
+            showJumlahJalanPadaKota(LP, LR);
+
+            cout << "\n============================================================================\n" << endl;
+
+            break;
+        }
         }
 
         char kembali;

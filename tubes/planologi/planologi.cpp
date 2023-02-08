@@ -596,6 +596,46 @@ void showParentKurangPembangunan(listParent LP, listRelasi LR){
     }
 }
 
+void showJumlahJalanPadaKota(listParent LP, listRelasi LR){
+    if(first(LP) != NULL && first(LR) != NULL) {
+        adrParent PP = first(LP);
+        while(next(PP) != first(LP)) {
+            adrRelasi PR = first(LR);
+            int count = 0;
+            while(next(PR) != NULL){
+                if(parent(PR) == PP){
+                    count++;
+                }
+                PR = next(PR);
+            }
+
+            if(parent(PR) == PP){
+                count++;
+            }
+
+            cout << "Jumlah Jalan di kota " << info(PP).nama << " adalah : " << count << endl;
+
+            PP = next(PP);
+            count = 0;
+        }
+
+        adrRelasi PR = first(LR);
+        int count = 0;
+        while(next(PR) != NULL){
+            if(parent(PR) == PP){
+                count++;
+            }
+            PR = next(PR);
+        }
+
+        if(parent(PR) == PP){
+            count++;
+        }
+
+        cout << "Jumlah Jalan di kota " << info(PP).nama << " adalah : " << count << endl;
+    }
+}
+
 int hitungParentByNamaChild(listRelasi L, string X){
     int count = 0;
     adrRelasi P = first(L);

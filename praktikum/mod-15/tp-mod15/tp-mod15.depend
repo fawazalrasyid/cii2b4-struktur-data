@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1672594299 source:c:\cii2b4-struktur-data\praktikum\mod-15\tp-mod15\main.cpp
+	"tree.h"
+	<iostream>
+
+1672593477 c:\cii2b4-struktur-data\praktikum\mod-15\tp-mod15\tree.h
+	<iostream>
+
+1672594287 source:c:\cii2b4-struktur-data\praktikum\mod-15\tp-mod15\tree.cpp
+	"tree.h"
+

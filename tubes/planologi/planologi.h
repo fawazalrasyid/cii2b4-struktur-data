@@ -19,6 +19,7 @@ typedef struct elmRelasi *adrRelasi;
 
 struct infotypeParent {
     string nama;
+    int jumlahJalan;
 };
 
 struct elmParent {
@@ -96,5 +97,6 @@ adrRelasi searchRelasiByChild(listRelasi L, adrChild Child);
 void showParentWithChild(listParent LP, listRelasi LR);
 void showParentKurangPembangunan(listParent LP, listRelasi LR);
 int hitungParentByNamaChild(listRelasi L, string X);
+void showJumlahJalanPadaKota(listParent LP, listRelasi LR);
 
 #endif // PLANOLOGI_H_INCLUDED
