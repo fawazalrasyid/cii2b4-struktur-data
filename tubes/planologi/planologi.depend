@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1673322157 source:c:\cii2b4-struktur-data\tubes\planologi\main.cpp
+	"menu.h"
+	"planologi.h"
+	<iostream>
+
+1673322181 c:\cii2b4-struktur-data\tubes\planologi\planologi.h
+	<iostream>
+
+1673324603 source:c:\cii2b4-struktur-data\tubes\planologi\planologi.cpp
+	"planologi.h"
+	<iostream>
+
+1673322157 source:c:\cii2b4-struktur-data\tubes\planologi\menu.cpp
+	"menu.h"
+
+1672404944 c:\cii2b4-struktur-data\tubes\planologi\menu.h
+	<iostream>
+
